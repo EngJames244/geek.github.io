@@ -1,0 +1,279 @@
+/*
+    =====================
+        Designed By : Hesham Mohamed Fathy
+    =====================
+    #6AD088 => For Green Degree Color
+    #08526d => for Blue Degree Color
+
+*/
+/* Upper Bar Section */
+.upperbar{
+    background-color: #08526d;
+    color: #fff;
+    padding: 10px;
+}
+.upperbar .btn-outline-success , .about .btn-outline-success{
+    color: #fff;
+    padding: 5px;
+}
+.upperbar .btn-outline-success:hover{
+    background-color:#08526d;
+    
+}
+.upperbar i:hover{color: #6ad088;}
+/* Navbar Section */
+.navbar-expand-lg .navbar-brand{
+    color: #6ad088;
+    font-size: 28px;
+    font-weight: bold;
+}
+.navbar-expand-lg .navbar-brand:hover{color: #08526d;}
+.navbar-nav .nav-link{
+    font-size: 16px;
+    color: #08526d;
+    font-weight: bold;
+}
+.navbar-nav .active > .nav-link , .navbar-nav .nav-link:hover{
+    color: #6ad088 !important;
+}
+/* Slider Section */
+.slider{
+    height: 100%;
+}
+.slider .carousel-indicators li{
+    cursor: pointer;
+    height: 5px;
+}
+.slider .carousel-inner{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.slider .carousel-inner h1{
+    position: absolute;
+    color: #08526d;
+    z-index: 3;
+    font-size: 50px;
+    line-height: 1.2;
+    max-width: 900px;
+    padding-bottom: 23rem;
+    padding-left: 250px;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+.slider .carousel-inner h1 span{
+    color: #6ad088;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+.slider .carousel-inner .overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.1);
+    z-index: 2;
+}
+.carousel-item{
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+     background-size: cover;
+}
+.slider .carousel-one{
+    background-image: url('../images/slider01.png');
+}
+.slider .carousel-two{
+    background-image: url('../images/slider02.png');
+}
+.slider .carousel-three{
+    background-image: url('../images/slider03.png');
+}
+/* Services Section */
+.services .card , .coursesinfo .card{
+    border: none;
+}
+.services h2{
+    color: #08526d;
+    font-size: 1.75rem;
+    margin: 50px 0;
+}
+.services .alert-primary {
+    background-color: #6ad088;
+    color: #08526d;
+    width: 40%;
+    margin: 0 auto;
+    font-weight: 500;
+}
+.services .card img{
+     -webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* Safari */
+      transition: width 2s, height 2s, transform 2s;
+}
+.services .card img:hover{
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform:rotate(180deg);
+  transform: rotate(180deg);
+}
+/* About Section */
+.about .alert-primary{
+   background-color: #08526d;
+   margin-top: 50px;
+}
+.about .alert-primary h1 , .about h4{
+    color: #6ad088;
+    font-size: 2.25rem;
+    font-weight: bold;
+}
+.about .alert-primary hr{
+    width: 7.5%;
+    margin: 20px auto;
+    border: 2px dashed #6ad088;
+}
+.about .alert-primary p{
+    color: #fff;
+    line-height: 1.5;
+}
+.about h4{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+/* Courses Section */
+.courses{
+  padding: 35px 0;
+}
+.courses h3 , .pricing h1 , .card-body .plan{
+  font-size: 40px;
+  font-weight: bold;
+  color: #08526d;
+  margin-bottom: 30px;
+}
+.courses .outerp , .pricing p{
+  letter-spacing: 1.2px;
+  font-size: 20px;
+  margin: 0 auto 30px;
+  width: 65%;
+  font-weight: 500;
+}
+.courses ul{
+  margin-top: 20px;
+}
+.courses ul li{
+  color: #08526d;
+  border: 2px solid #6ad088;
+  padding: 4px 8px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+.courses ul li.active , .courses ul li:hover{
+  background-color: #6ad088;
+}
+.courses ul li:hover{
+  cursor: pointer;
+}
+.courses .coursesinfo{
+  margin-top: 50px;
+}
+.courses .coursesinfo .card img{
+  transition: all 1s;
+}
+.courses .coursesinfo .card img:hover{
+  transform: scale(1.1);
+}
+.courses .coursesinfo .card-title{
+  color: #08526d;
+  font-weight: bold;
+}
+.courses .coursesinfo .card-text , .courses .coursesinfo span{
+  font-size: 20px;
+  font-weight: 500;
+}
+.courses .coursesinfo hr{
+  border: 1px solid #08526d;
+}
+.courses .coursesinfo .btn-outline-primary{
+  color: #08526d;
+  border: 1px solid #08526d;
+}
+.courses .coursesinfo .btn-outline-primary:hover{
+   background-color: #6ad088;
+   border: 1px solid #08526d;
+}
+.courses .coursesinfo  span{
+  color: #08526d;
+}
+.courses .coursesinfo .del{
+  text-decoration: line-through;
+}
+
+/* Pricing Section */
+.pricing{
+  margin-top: 25px;
+}
+.pricing .outerhr{
+  width: 5%;
+  border: 1px solid #08526d;
+  margin: 0 auto 35px auto;
+}
+.pricing .card{
+  background: linear-gradient(to right , #08526d , #4591ad);
+  transition: all 1s;
+}
+.pricing .card:hover{
+  transform: scale(1.1);
+}
+.pricing .card .card-body .plan{
+  font-size:25px;
+  color: #6ad088;
+}
+.pricing .card-body .price{
+  font-size: 35px;
+  color: #fff;
+}
+.pricing .card .btn-primary{
+  width: 100%;
+  margin: 0;
+  background: linear-gradient(to right , #6ad088, #afedc0 );
+  border: none;
+}
+/* Footer Section */
+footer {
+    background-color: #08526d;
+    color:#fff;
+    font-size: 14px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 999;
+    margin-top: 50px;
+}
+footer p {
+    margin: 10px 0;
+     color: #6ad088;
+}
+footer i {
+    color: #6ad088;
+}
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+footer a:hover{
+    text-decoration: none;
+    cursor: pointer;
+     color: #fff;
+}
+footer .rule{
+  padding-top: 5px;
+}
+footer span i{
+  color: #fff;
+  padding: 5px 2px 0px 2px;
+}
+footer span i:hover{
+  color: #6ad088;
+}
+
